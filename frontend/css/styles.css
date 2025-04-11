@@ -50,11 +50,11 @@ a {
   z-index: 0;
 }
 
-.hero nav .logo img {
+.navbar .logo img {
   height: 5rem;
 }
 
-.hero nav {
+.navbar {
   position: absolute;
   top: 0;
   display: flex;
@@ -116,4 +116,29 @@ a {
     background: url(/images/merab-dvalishvili.jpg) no-repeat center;
     background-size: cover;
   }
+}
+
+/* Events */
+
+.events-nav {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+  font-size: 1.8rem;
+  padding: 1rem;
+}
+
+.events-nav .logo img {
+  height: 5rem;
+}
+
+.events-hero {
+  background: url(/images/ufc314.jpg) no-repeat;
+  background-size: cover;
+  height: 100vh;
+  padding: 2rem;
 }
